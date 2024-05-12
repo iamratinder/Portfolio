@@ -1,0 +1,94 @@
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url(./images/Screenshot\ 2024-05-12\ 203028.png);
+    /* position: fixed; */
+    background-size: cover;
+}
+
+.heading{
+    font-size: 3vw;
+    display: flex;
+    justify-content: left;
+    margin-top: 1vw;
+    margin-left: 3vw;
+    margin-bottom: -3vw;
+}
+
+hr {
+    width: 100%;
+    margin-top: -1vw;
+}
+.navbar{
+    display: flex;
+    justify-content: right;
+    font-size: 1.2vw;
+    margin: 1vw;
+    margin-right: 15vw;
+    padding: 1vw;
+    z-index: 3;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+    margin: 0 2vw;
+}
+@keyframes font-inc {
+    100%{
+        color: blue;
+    }
+}
+.navbar a:hover{
+    animation-name: font-inc;
+    animation-fill-mode: forwards;
+}
+.content{
+    font-size: 3vw;
+    margin: 9vw 23vw;
+    margin-top: 15vw;
+    display: flex;
+    flex-direction: column;
+    z-index: 100;
+}
+.about{
+    font-size: 1.5vw;
+    margin-top: 1vw;
+    display: flex;
+
+}
+.image{
+    display: flex;
+}
+img{
+    width: 20vw;
+    height: 20vw;
+    margin-left: 8vw;
+    margin-top: 12vw;
+    margin-right: -4vw;
+    border: solid;
+    border-radius: 100%;
+}
+.skills{
+    border: solid;
+    display: flex;
+    flex-direction: column;
+    font-size: 4vw;
+    margin: 3vw;
+    margin-top: 30vw;
+    height: 40vw;
+    text-align: center;
+
+}
+.projects{
+    border: solid;
+    display: flex;
+    font-size: 4vw;
+    margin: 3vw;
+    height: 40vw;
+    justify-content: center;
+}
+.my_skills{
+    font-size: 2vw;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
